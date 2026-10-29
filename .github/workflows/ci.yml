@@ -17,9 +17,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 26
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Validate HTML
-        run: npx --yes html-validate "**/*.html"
+        run: npx html-validate "*.html"
 
       - name: Check for broken links
-        run: npx --yes linkinator . --recurse --skip "^http"
+        run: npx linkinator . --recurse --skip "^http"

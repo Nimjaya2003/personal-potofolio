@@ -1,0 +1,25 @@
+{
+  "name": "potofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nimjaya2003/personal-potofolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nimjaya2003/personal-potofolio/issues"
+  },
+  "homepage": "https://github.com/Nimjaya2003/personal-potofolio#readme",
+  "devDependencies": {
+    "html-validate": "^11.17.0",
+    "linkinator": "^8.1.0"
+  }
+}
